@@ -1,0 +1,13 @@
+import Nav from "./modules/nav";
+import LastProducts from "./modules/last-products";
+import Slider from "./modules/slider";
+import Busket from "./modules/busket";
+import Search from "./modules/search";
+import { AddCart } from "./modules/cart";
+console.clear();
+AddCart();
+Nav();
+LastProducts();
+Slider();
+Busket();
+Search();

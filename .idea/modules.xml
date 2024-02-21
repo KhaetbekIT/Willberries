@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/wildberiris.iml" filepath="$PROJECT_DIR$/.idea/wildberiris.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/coworking.iml" filepath="$PROJECT_DIR$/.idea/coworking.iml" />
     </modules>
   </component>
 </project>

@@ -5,6 +5,10 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 img {
@@ -80,6 +84,7 @@ button {
 
 .long-goods {
     display: none;
+    flex-grow: 1;
 }
 
 .show-goods .long-goods {
