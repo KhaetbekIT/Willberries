@@ -1,5 +1,7 @@
 const CounterFunc = () => {
-  const goods = JSON.parse(localStorage.getItem("goods"));
+  const goods = localStorage.getItem("goods")
+    ? JSON.parse(localStorage.getItem("goods"))
+    : [];
   const total = document.querySelector(".card-table__total");
   total.textContent = goods.reduce((sum, goodItem) => {
     return sum + goodItem.price * goodItem.quantity;
