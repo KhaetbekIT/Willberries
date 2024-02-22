@@ -1,3 +1,3 @@
-const API = `http://localhost:9000`;
+const API = `https://wildberris-server-api.onrender.com`;
 
 export { API };

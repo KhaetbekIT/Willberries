@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"npx json-server -w db/db.json -p=9000\" \"webpack server --watch --mode=production --open\"",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "api": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +21,8 @@
   },
   "devDependencies": {
     "prettier": "3.2.5"
+  },
+  "engines": {
+    "node": ">=18 <21"
   }
 }
